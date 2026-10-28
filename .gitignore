@@ -1,0 +1,45 @@
+# Build outputs
+/build/
+/build-*/
+/dist/
+/third_party/
+/work/
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# Local analysis and machine-specific reports
+/.tool-state/
+/analysis/
+/artifacts/
+/retry-validation-data/
+/validation-cache/
+/tools/aqt/
+/aqtinstall.log
+/*.json
+/*.jsonl
+/*.html
+/ui-preview.png
+/ui-scan-preview.png
+
+# Keep source manifests tracked
+!/vcpkg.json
+!/vcpkg-configuration.json
+
+# Runtime output
+/diagnostics/
+/journals/
+/packages/
+/plans/
+/rollback/
+
+# IDE, CMake and operating-system files
+/.vs/
+/.vscode/
+/CMakeUserPresets.json
+*.user
+*.suo
+Thumbs.db
+Desktop.ini

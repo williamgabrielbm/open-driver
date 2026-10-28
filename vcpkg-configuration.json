@@ -1,0 +1,4 @@
+{
+  "default-registry": null,
+  "overlay-ports": ["../work/vcpkg-src/ports"]
+}
